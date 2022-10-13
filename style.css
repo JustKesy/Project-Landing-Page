@@ -87,3 +87,51 @@ li img {
   justify-content: center;
   align-items: center;
 }
+.quote {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+.quote2 {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 50px 0px;
+  padding-left: 50px;
+}
+.quote2 p {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  margin: 0%;
+}
+.quote2 h4 {
+  align-self: flex-end;
+  margin: 0px;
+}
+.end {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  width: 900px;
+  height: 100px;
+  display: flex;
+  background-color: #3882f6;
+  margin: 50px;
+  border-radius: 5%;
+  justify-content: center;
+  column-gap: 250px;
+  align-items: center;
+}
+.blue h4,
+.blue p {
+  margin: 0%;
+  color: white;
+}
+.button .sign-up {
+  border-color: white;
+}
